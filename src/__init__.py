@@ -16,3 +16,8 @@ def about():
 @app.route("/contact")
 def contact():
     return render_template("contact.html")
+
+
+@app.route("/description")
+def description():
+    return render_template("description.html")
