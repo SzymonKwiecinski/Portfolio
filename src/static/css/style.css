@@ -41,7 +41,8 @@ body {
     margin: 0 auto;
     margin-top: 3rem;
 }
-.main--about {
+.main--about,
+.main--description {
     flex-direction: column;
     max-width: 500px;
     padding: 0 1rem;
