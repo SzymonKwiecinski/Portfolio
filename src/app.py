@@ -10,9 +10,7 @@ def create_app():
     client = MongoClient(os.environ.get("MONGODB_URI"))
     app.db = client.portfolioDB
     projects = [project for project in app.db.projectsColl.find({})]
-    print(projects)
     slug_to_project = {project['slug']: project for project in projects}
-    print(slug_to_project)
 
     @app.route("/")
     def home():
