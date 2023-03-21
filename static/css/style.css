@@ -156,7 +156,7 @@ body {
     line-height: 150%;
 }
 
-@media (min-width: 10em) {
+@media (min-width: 48.75em) {
     .project {
         flex-direction: row;
         padding: 0;
