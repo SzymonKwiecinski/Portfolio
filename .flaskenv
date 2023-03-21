@@ -1,2 +1,2 @@
 FLASK_ENV=development
-FLASK_APP=src/app:create_app
+FLASK_APP=app:create_app
