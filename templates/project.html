@@ -22,9 +22,9 @@
                         <h3 class="project__heading project__heading--meta">Technologies used</h3>
 
                         <ul class="technology-list">
-                            <li class="technology-list__item">Python</li>
-                            <li class="technology-list__item">HTML</li>
-                            <li class="technology-list__item">CSS</li>
+                            {% for category in project['categories'] %}
+                            <li class="technology-list__item">{{ category }}</li>
+                            {% endfor %}
                         </ul>
                     </article>
 
@@ -34,7 +34,7 @@
                             src="{{ url_for('static', filename='img/pointer.svg') }}"
                             alt="Picture which shows project named: {{ project['name'] }}"
                         />
-                        View in production
+                        View in GitHub
                     </a>
                 </section>
             </article>

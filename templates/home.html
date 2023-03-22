@@ -12,7 +12,9 @@
                     <header class="project-card__meta">
                         <ul class="categories">
                             {% for category in project['categories'] %}
+                                {% if loop.index < 3 %}
                                 <li class="categories__tag">{{ category }}</li>
+                                {% endif %}
                             {% endfor %}
                         </ul>
                         <h2 class="project-card__name">{{ project['name'] }}</h2>
