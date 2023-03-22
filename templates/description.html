@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <main class="main main--description">
+    <main lang="pl" class="main main--description">
         <section class="description__section">
             <h2 class="description__header">Wstęp</h2>
             <p class="description__text">
-                Serwis został zrobiony na potrzeby zalicznia projektu na przedmiot "Architektura i Technologie Systemów internetowych".
+                Serwis został zrobiony na potrzeby zaliczenia projektu na przedmiot "Architektura i Technologie Systemów internetowych".
                 Prowadzony przez:
             </p>
             <ul class="description__lista">
@@ -15,13 +15,13 @@
         </section>
         <section class="description__section">
             <h2 class="description__header">
-                Założenia postawine przez autora:
+                Założenia postawione przez autora:
             </h2>
             <ul class="description__lista">
                 <li>Stworzenie prostego serwisu typy portfolio zawierającego opis projektów autora</li>
-                <li>Do serwisu w łatwy sposób powwino dać się dodawać nowe projekty</li>
+                <li>Do serwisu w łatwy sposób powinno dać się dodawać nowe projekty</li>
                 <li>Serwis powinien działać na urządzeniach mobilnych</li>
-                <li>Podtwarz tworzenia serwisu autor powinien zdobyć widze na temat tworzenia stron internetowych</li>
+                <li>Podczas tworzenia serwisu autor powinien zdobyć wiedzę na temat tworzenia stron internetowych</li>
             </ul>
         </section>
         <section class="description__section">
@@ -39,25 +39,29 @@
         </section>
         <section class="description__section">
             <h2 class="description__header">
-                Wymagania postawione serwisowi przez prowadządzych:
+                Wymagania postawione serwisowi przez prowadzących:
             </h2>
             <ul class="description__lista">
                 <li>Wykorzystanie co najmniej technologii HTML4. W projekcie użyto HTML5</li>
-                <li>Wykorzystanie "nietrywialnego" formatowania CSS. Została użyta techologia CSS3 oraz metodologia BEM(block-element-modifaier) aby foramtować HTML</li>
+                <li>Wykorzystanie "nietrywialnego" formatowania CSS. Została użyta technologia CSS3 oraz metodologia BEM(block-element-modifaier) aby sformatować HTML</li>
                 <li>
                     Kompatybilność z popularnymi przeglądarkami internetowymi. Założenie spełnione. Strona działa poprawnie
                     na Safari, Firefox, Chrome, Opera
                 </li>
                 <li>łagodna degradacja, to znaczy serwis powinien działać na starszych przeglądarkach. ++++ </li>
-                <li>Dostępność dla niewidomych. Każde zdjecie posiada dobrze je opisująca classe 'alt'. Serwis składa się z  </li>
                 <li>
-                    Wykorzystanie innych technologii poza HTML i CSS. Zostały wykorzystane skrypty po stronie serwera napisane w jezyku Python
+                    Dostępność dla niewidomych. Każde zdjęcie posiada dobrze je opisującą classe 'alt'.
+                    Strona została zwalidowana na stronie "https://www.experte.com/accessibility" pod kątem
+                    dostępności dla niepełnosprawnych przechodząc testy na 95%
+                </li>
+                <li>
+                    Wykorzystanie innych technologii poza HTML i CSS. Zostały wykorzystane skrypty po stronie serwera napisane w języku Python
                     z użyciem frameworku FLASK, oraz dane na temat projektów są przechowywane w bazie danych NoSQL MongoDB.
                 </li>
                 <li>
                     Serwis powinien zawierać dobrze przemyślany interfejs. Ocena tego punktu jest bardzo subiektywna ale
-                    według autora został on spełniony. Każda interaktywna część interfejsu w jakiś sposób zmiena sie po
-                    najechaniu na nią co pokazuje użytkownikowi, że może wejść w interakcjie z nią
+                    według autora został on spełniony. Każda interaktywna część interfejsu w jakiś sposób zmienia się po
+                    najechaniu na nią co pokazuje użytkownikowi, że może wejść z nią w interakcję
                 </li>
             </ul>
     </main>
