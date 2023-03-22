@@ -8,7 +8,7 @@
                 <article class="project-card">
                     <img class="project-card__image"
                          src="{{ url_for('static', filename="img/"~project['thumb']) }}"
-                         alt="{{ project['name'] }} hero image "/>
+                         alt="Picture for project called: {{ project['name'] }} "/>
                     <header class="project-card__meta">
                         <ul class="categories">
                             {% for category in project['categories'] %}

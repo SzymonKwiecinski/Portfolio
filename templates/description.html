@@ -2,39 +2,46 @@
 
 {% block content %}
     <main class="main main--description">
-        <section>
-            <p>
+        <section class="description__section">
+            <h2 class="description__header">Wstęp</h2>
+            <p class="description__text">
                 Serwis został zrobiony na potrzeby zalicznia projektu na przedmiot "Architektura i Technologie Systemów internetowych".
                 Prowadzony przez:
             </p>
-                <ul>
-            <li>dr hab. inż. Bartłomiej Jacek Kubica</li>
-            <li>inż. Adam Kozakiewicz</li>
-                </ul>
-        </section>
-        <section>
-        <h2>
-            Załżenia postawine przez autora:
-        </h2>
-            <ul>
-                <li>Wykorzystanie co najmniej technologii HTML4. W projekcie użyto HTML5</li>
-                <li>Wykorzystanie "nietrywialnego" formatowania CSS. Została użyta techologia CSS3 oraz metodologia BEM(block-element-modifaier) aby foramtować HTML</li>
+            <ul class="description__lista">
+                <li>dr hab. inż. Bartłomiej Jacek Kubica</li>
+                <li>dr inż. Adam Kozakiewicz</li>
             </ul>
         </section>
-        <section>
-        <h2>
-            Użyte technologie:
-        </h2>
-            <ul>
-                <li>Wykorzystanie co najmniej technologii HTML4. W projekcie użyto HTML5</li>
-                <li>Wykorzystanie "nietrywialnego" formatowania CSS. Została użyta techologia CSS3 oraz metodologia BEM(block-element-modifaier) aby foramtować HTML</li>
+        <section class="description__section">
+            <h2 class="description__header">
+                Założenia postawine przez autora:
+            </h2>
+            <ul class="description__lista">
+                <li>Stworzenie prostego serwisu typy portfolio zawierającego opis projektów autora</li>
+                <li>Do serwisu w łatwy sposób powwino dać się dodawać nowe projekty</li>
+                <li>Serwis powinien działać na urządzeniach mobilnych</li>
+                <li>Podtwarz tworzenia serwisu autor powinien zdobyć widze na temat tworzenia stron internetowych</li>
             </ul>
         </section>
-        <section>
-        <h2>
-            Wymagania postawione serwisowi przez prowadządzych:
-        </h2>
-            <ul>
+        <section class="description__section">
+            <h2 class="description__header">
+                Użyte technologie:
+            </h2>
+            <ul class="description__lista">
+                <li>Python 3.9</li>
+                <li>Python web framework: Flask</li>
+                <li>Template language: JINJA2</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Document Database: MongoDB</li>
+            </ul>
+        </section>
+        <section class="description__section">
+            <h2 class="description__header">
+                Wymagania postawione serwisowi przez prowadządzych:
+            </h2>
+            <ul class="description__lista">
                 <li>Wykorzystanie co najmniej technologii HTML4. W projekcie użyto HTML5</li>
                 <li>Wykorzystanie "nietrywialnego" formatowania CSS. Została użyta techologia CSS3 oraz metodologia BEM(block-element-modifaier) aby foramtować HTML</li>
                 <li>
@@ -42,7 +49,7 @@
                     na Safari, Firefox, Chrome, Opera
                 </li>
                 <li>łagodna degradacja, to znaczy serwis powinien działać na starszych przeglądarkach. ++++ </li>
-                <li>Dostępność dla niepełnosprawnych. +++ </li>
+                <li>Dostępność dla niewidomych. Każde zdjecie posiada dobrze je opisująca classe 'alt'. Serwis składa się z  </li>
                 <li>
                     Wykorzystanie innych technologii poza HTML i CSS. Zostały wykorzystane skrypty po stronie serwera napisane w jezyku Python
                     z użyciem frameworku FLASK, oraz dane na temat projektów są przechowywane w bazie danych NoSQL MongoDB.
@@ -53,6 +60,5 @@
                     najechaniu na nią co pokazuje użytkownikowi, że może wejść w interakcjie z nią
                 </li>
             </ul>
-
     </main>
 {% endblock %}
