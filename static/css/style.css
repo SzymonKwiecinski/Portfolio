@@ -21,7 +21,6 @@ body {
 }
 
 .nav__link {
-    text-underline: none;
     text-decoration: none;
     color: black;
 }

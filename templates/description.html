@@ -2,31 +2,57 @@
 
 {% block content %}
     <main class="main main--description">
-        <p>
-            Serwis został zrobiony na potrzeby zalicznia projektu na przedmiot "Architektura i Technologie Systemów internetowych".
-            Prowadzony przez: dr hab. inż. Bartłomiej Jacek Kubica oraz dr inż. Adam Kozakiewicz
-        </p>
-        <p>
+        <section>
+            <p>
+                Serwis został zrobiony na potrzeby zalicznia projektu na przedmiot "Architektura i Technologie Systemów internetowych".
+                Prowadzony przez:
+            </p>
+                <ul>
+            <li>dr hab. inż. Bartłomiej Jacek Kubica</li>
+            <li>inż. Adam Kozakiewicz</li>
+                </ul>
+        </section>
+        <section>
+        <h2>
+            Załżenia postawine przez autora:
+        </h2>
+            <ul>
+                <li>Wykorzystanie co najmniej technologii HTML4. W projekcie użyto HTML5</li>
+                <li>Wykorzystanie "nietrywialnego" formatowania CSS. Została użyta techologia CSS3 oraz metodologia BEM(block-element-modifaier) aby foramtować HTML</li>
+            </ul>
+        </section>
+        <section>
+        <h2>
+            Użyte technologie:
+        </h2>
+            <ul>
+                <li>Wykorzystanie co najmniej technologii HTML4. W projekcie użyto HTML5</li>
+                <li>Wykorzystanie "nietrywialnego" formatowania CSS. Została użyta techologia CSS3 oraz metodologia BEM(block-element-modifaier) aby foramtować HTML</li>
+            </ul>
+        </section>
+        <section>
+        <h2>
             Wymagania postawione serwisowi przez prowadządzych:
-                Wykorzystanie HTML i CSS
-                Nietrywialne formatowanie CSS
-                Kompatybilność z przeglądarkami starszymi obsługującymi standard XHTML 1.1
-                Serwis powienien funkcjoownowac poporawnie we wszystkich przegladarkach
-                Dostępność dla niepełnosprawnych
-                Wykorzystanie innej technologii niż CSS i HTML w projekcie:
-                    1.Skrypty po stronie serwera
-                    2.Wykorzystanie Bazy danych NoSQL MongoDB
-                Serwis powienien zawierac przemyslany interfejs (łatwy w nawigacji)
-                Dodanie strony poświęconej opisowi projektu/serwisu
-                Zaprojektowanie strony,z kttórej teoretycznie ktoś miałby korzystać
-            Wymagania postawione serwisowi przez autora
+        </h2>
+            <ul>
+                <li>Wykorzystanie co najmniej technologii HTML4. W projekcie użyto HTML5</li>
+                <li>Wykorzystanie "nietrywialnego" formatowania CSS. Została użyta techologia CSS3 oraz metodologia BEM(block-element-modifaier) aby foramtować HTML</li>
+                <li>
+                    Kompatybilność z popularnymi przeglądarkami internetowymi. Założenie spełnione. Strona działa poprawnie
+                    na Safari, Firefox, Chrome, Opera
+                </li>
+                <li>łagodna degradacja, to znaczy serwis powinien działać na starszych przeglądarkach. ++++ </li>
+                <li>Dostępność dla niepełnosprawnych. +++ </li>
+                <li>
+                    Wykorzystanie innych technologii poza HTML i CSS. Zostały wykorzystane skrypty po stronie serwera napisane w jezyku Python
+                    z użyciem frameworku FLASK, oraz dane na temat projektów są przechowywane w bazie danych NoSQL MongoDB.
+                </li>
+                <li>
+                    Serwis powinien zawierać dobrze przemyślany interfejs. Ocena tego punktu jest bardzo subiektywna ale
+                    według autora został on spełniony. Każda interaktywna część interfejsu w jakiś sposób zmiena sie po
+                    najechaniu na nią co pokazuje użytkownikowi, że może wejść w interakcjie z nią
+                </li>
+            </ul>
 
-            Urzyte technologie
-
-            Do zrobienia w przyszłości
-        </p>
-        <p>
-
-        </p>
     </main>
 {% endblock %}
