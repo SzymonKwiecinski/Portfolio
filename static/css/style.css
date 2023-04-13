@@ -140,13 +140,11 @@ body {
 }
 
 .hero {
-    /*width: 100%;*/
-    /*margin-bottom: 1.5rem;*/
+    width: 75%;
     display: block;
-    margin: auto;
-    max-height: 350px;
-    /*margin: 1rem auto;*/
+    margin: 1.5rem auto;
     align-items: center;
+
     justify-items: center;
 }
 
