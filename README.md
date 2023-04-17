@@ -1,8 +1,8 @@
 Autor: Szymon Kwieciński
 
-Serwis znajduje sie pod linkami:
-http://3.71.82.95/
-http://portfolio-32u4.onrender.com/
+Serwis znajduje sie pod linkami:  
+* http://3.71.82.95/. 
+* http://portfolio-32u4.onrender.com/. 
 
 Podstrona dotycząca opisu projektu znajduje sie pod linkiem:https://portfolio-32u4.onrender.com/description 
 
